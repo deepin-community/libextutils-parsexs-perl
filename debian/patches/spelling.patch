@@ -1,0 +1,14 @@
+Description: fix a typo found by the lintian checker
+Author: Florian Schlichting <fsfs@debian.org>
+
+--- a/lib/ExtUtils/ParseXS/Utilities.pm
++++ b/lib/ExtUtils/ParseXS/Utilities.pm
+@@ -553,7 +553,7 @@
+ 
+ =item * Return Value
+ 
+-Modifed values of three of the arguments passed to the function.  In
++Modified values of three of the arguments passed to the function.  In
+ particular, the C<XSStack> and C<InitFileCode> attributes are modified.
+ 
+ =back
